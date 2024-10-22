@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
 import './cardsingle.css'
-function CardSingle({ name, image, debut }) {
+import Unknow from '../../assets/unknow.jpg'
+function CardSingle({ name, image = Unknow }) {
     return (
         <article className='card-single'>
             <img src={image} alt={name} />

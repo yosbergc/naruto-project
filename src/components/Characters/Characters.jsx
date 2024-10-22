@@ -13,7 +13,6 @@ function Characters() {
                             key={character.id}
                             name={character.name}
                             image={character.images[0]}
-                            debut={character.debut}
                         />
                     })
                 }

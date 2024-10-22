@@ -1,5 +1,17 @@
+.card-single {
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: left;
+    background-color: rgb(35, 34, 34);
+    transition: 0.2s ease-in;
+}
 .card-single img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    border-radius: 8px;
+}
+.card-single:hover {
+    background-color: rgb(31, 31, 31);
 }
