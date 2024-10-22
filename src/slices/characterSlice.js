@@ -1,14 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const characterSlice = createSlice({
-    name: 'character',
+    name: 'characters',
     initialState: [],
     reducers: {
-        addCharacter: (state, action) => {
-            return state.push(action.payload)
+        setCharacter: (_, action) => {
+            return action.payload;
         }
     }
 })
 
-export const { addCharacter } = characterSlice.actions;
+export const { setCharacter } = characterSlice.actions;
 export default characterSlice.reducer;

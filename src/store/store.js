@@ -4,9 +4,9 @@ import akatsukiSlice from '../slices/akatsukiSlice'
 import characterSlice from '../slices/characterSlice'
 
 const rootReducer = combineReducers({
-    clan: clanSlice,
-    akatsuki: akatsukiSlice,
-    character: characterSlice
+    clans: clanSlice,
+    akatsukis: akatsukiSlice,
+    characters: characterSlice
 })
 const store = configureStore({
     reducer: rootReducer

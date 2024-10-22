@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const clanSlice = createSlice({
-    name: "clan",
+    name: "clans",
     initialState: [],
     reducers: {
         addClan: (state, action) => {

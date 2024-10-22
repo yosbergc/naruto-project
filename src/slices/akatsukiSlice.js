@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const akatsukiSlice = createSlice({
-    name: "akatsuki",
+    name: "akatsukis",
     initialState: [],
     reducers: {
         addAkatsuki: (state, action) => {

@@ -1,0 +1,15 @@
+.characters-container {
+    background-color: rgb(18, 18, 18);
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+}
+.characters-container h2 {
+    text-align: left;
+}
+.characters-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
