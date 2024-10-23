@@ -1,5 +1,5 @@
-function getCharacters() {
-    return fetch('https://narutodb.xyz/api/character')
+function getClans() {
+    return fetch('https://narutodb.xyz/api/clan')
         .then(res => {
             if (!res.ok) {
                 throw new Error('Hubo un error')
@@ -9,4 +9,4 @@ function getCharacters() {
         .then(data => data)
         .catch(error => error)
 }
-export { getCharacters }
+export { getClans }

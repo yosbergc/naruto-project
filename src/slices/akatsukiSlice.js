@@ -4,11 +4,11 @@ const akatsukiSlice = createSlice({
     name: "akatsukis",
     initialState: [],
     reducers: {
-        addAkatsuki: (state, action) => {
-            return state.push(action.payload)
+        setAkatsuki: (state, action) => {
+            return action.payload
         }
     }
 })
 
-export const { addAkatsuki } = akatsukiSlice.actions;
+export const { setAkatsuki } = akatsukiSlice.actions;
 export default akatsukiSlice.reducer

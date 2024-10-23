@@ -9,7 +9,7 @@ function useCharacters() {
     useEffect(() => {
         getCharacters()
           .then(data => {
-            dispatch(setCharacter(data))
+            dispatch(setCharacter(data.characters))
           })
           .catch(error => console.error(error))
     }, [])

@@ -4,11 +4,11 @@ const clanSlice = createSlice({
     name: "clans",
     initialState: [],
     reducers: {
-        addClan: (state, action) => {
-            return state.push(action.payload)
+        setClan: (state, action) => {
+            return action.payload
         }
     }
 })
 
-export const { addClan } = clanSlice.actions;
+export const { setClan } = clanSlice.actions;
 export default clanSlice.reducer;
